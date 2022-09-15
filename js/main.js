@@ -76,8 +76,8 @@ class Player{
 
     }
     moveLeft(){
-        if(this.positionX<0){
-            this.positionX = 0;
+        if(this.positionX<1){
+            this.positionX = 1;
         }else{
             console.log("moving left",this.positionX)
             this.positionX -= 1;
