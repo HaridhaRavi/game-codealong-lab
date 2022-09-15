@@ -1,19 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    /*background-image: url("../images/new-background-image.gif");*/
+    background-image: url("../images/bg-img-sky.jpg");
     
 }
 #board{
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     height:100vh;
     position: relative;
 }
 #player{
-    background-color: rgb(243, 6, 105);
+    background-color: rgba(228, 224, 27, 0.781);
     position: absolute;
 }
 .obstacle{
-    background-color: crimson;
+    background-color: rgb(236, 22, 236);
     position: absolute;
 }
