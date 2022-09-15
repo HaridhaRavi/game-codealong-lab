@@ -1,4 +1,16 @@
-h1{
-    color: blueviolet;
-    background: black;
+body{
+    margin: 0;
+    padding: 0;
+    /*background-image: url("../images/new-background-image.gif");
+    background-repeat: repeat;*/
 }
+#board{
+    background-color: lightblue;
+    height:100vh;
+    position: relative;
+}
+#player{
+    background-color: rgb(243, 6, 105);
+    position: absolute;
+}
+
