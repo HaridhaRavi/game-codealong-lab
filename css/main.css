@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    /*background-image: url("../images/new-background-image.gif");
-    background-repeat: repeat;*/
+    /*background-image: url("../images/new-background-image.gif");*/
+    
 }
 #board{
     background-color: lightblue;
@@ -13,4 +13,7 @@ body{
     background-color: rgb(243, 6, 105);
     position: absolute;
 }
-
+.obstacle{
+    background-color: crimson;
+    position: absolute;
+}
